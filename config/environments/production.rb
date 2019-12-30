@@ -112,7 +112,7 @@ Rails.application.configure do
   # config.active_record.database_selector = { delay: 2.seconds }
   # config.active_record.database_resolver = ActiveRecord::Middleware::DatabaseSelector::Resolver
   # config.active_record.database_resolver_context = ActiveRecord::Middleware::DatabaseSelector::Resolver::Session
-  config.action_mailer.default_url_options = { :host => 'myapp.herokuapp.com' }  
+  config.action_mailer.default_url_options = { :host => 'safe-harbor-89432.herokuapp.com' }  
   config.action_mailer.delivery_method = :smtp  
   config.action_mailer.perform_deliveries = true  
   config.action_mailer.raise_delivery_errors = false  
@@ -120,7 +120,7 @@ Rails.application.configure do
   config.action_mailer.smtp_settings = {  
     address: "smtp.gmail.com",
     port: 587,
-    domain: "myapp.herokuapp.com",
+    domain: "safe-harbor-89432.herokuapp.com",
     authentication: "plain",
     enable_starttls_auto: true,
     user_name: "adityatwist247@gmail.com",
